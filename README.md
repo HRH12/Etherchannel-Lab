@@ -7,17 +7,6 @@ The lab also includes VLAN configuration, trunking, port security, and switch ha
 
 ---
 
-# Lab Objectives
-
-- Configure EtherChannel using LACP
-- Configure EtherChannel using PAgP
-- Configure VLANs across switches
-- Configure trunk links
-- Disable DTP on trunk interfaces
-- Configure port security on access ports
-- Shutdown unused switch ports
----
-
 # Topology 1 — LACP
 This topology demonstrates EtherChannel negotiation using **LACP (802.3ad)**.
 <img width="782" height="361" alt="image" src="https://github.com/user-attachments/assets/69e84367-b4e1-4379-b6dd-e9d7c8652d1e" />
