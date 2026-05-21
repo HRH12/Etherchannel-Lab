@@ -34,90 +34,16 @@ This topology demonstrates EtherChannel negotiation using **LACP (802.3ad)**.
 ---
 
 # Topology 2 — PAgP
-
-## Purpose
-This topology demonstrates EtherChannel negotiation using **PAgP**, Cisco’s proprietary aggregation protocol.
+<img width="731" height="422" alt="image" src="https://github.com/user-attachments/assets/7b8ad02b-7157-40aa-8052-e5bf1d1e2202" />
 
 ---
 
 ## Tasks
-
-### Basic Configuration
-- [ ] Change hostnames on all switches
-- [ ] Configure management IP addresses
-- [ ] Configure switch default gateways
+<img width="682" height="555" alt="image" src="https://github.com/user-attachments/assets/17d67bea-c9ae-4c99-ad47-aaee44de3125" />
 
 ---
 
-### VLAN Configuration
-- [ ] Create required VLANs
-- [ ] Assign VLAN names
-- [ ] Configure access ports
-
----
-
-### Trunk Configuration
-- [ ] Configure static trunk links
-- [ ] Assign native VLAN
-- [ ] Disable DTP negotiation
-
----
-
-### PAgP EtherChannel
-- [ ] Configure EtherChannel using PAgP
-- [ ] Bundle physical interfaces into a Port-Channel
-- [ ] Configure the Port-Channel as a trunk
-- [ ] Verify proper negotiation and operation
-
----
-
-### Security Tasks
-- [ ] Configure port security on designated interfaces
-- [ ] Configure violation mode as restrict
-- [ ] Shutdown unused switch ports
-- [ ] Assign unused ports to an unused VLAN
-
----
-
-### Verification
-- [ ] Verify Port-Channel operation
-- [ ] Verify trunking status
-- [ ] Verify VLAN communication
-- [ ] Ensure full connectivity across devices
-
----
-
-# Skills Practiced
-
-- EtherChannel Configuration
-- LACP Configuration
-- PAgP Configuration
-- VLAN Configuration
-- Trunking
-- Port Security
-- Switch Hardening
-- Layer 2 Troubleshooting
-- Connectivity Verification
-
----
-
-# Troubleshooting Practice
-
-- [ ] Troubleshoot EtherChannel mismatches
-- [ ] Identify incorrect negotiation modes
-- [ ] Troubleshoot trunking problems
-- [ ] Verify native VLAN consistency
-- [ ] Resolve port-security violations
-
----
-
-# Expected Outcome
-
-By the end of this lab:
-- Both EtherChannels should be operational
-- VLAN traffic should pass successfully across trunks
-- Port security should function correctly
-- Unused interfaces should be secured
-- All devices should have full connectivity
+## Verification
+<img width="581" height="390" alt="image" src="https://github.com/user-attachments/assets/31cc17e6-6b04-4214-98ad-bb7526f6a677" />
 
 ---
